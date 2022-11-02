@@ -10,8 +10,23 @@ public class class01 {
         int num = 1024;
         print(num >>> 1);
 
+        int c = 5;
+        int d = ~c+1;
+
+        System.out.println(c);
+        System.out.println(d);
+
+
+        int e = Integer.MIN_VALUE;
+        int f = ~e + 1;
+
+        System.out.println(e);
+        System.out.println(f);
         int a = 7182312;
         int b = 8128312;
+
+        print(0);
+        print(~0+1);
 
         print(a);
         print(b);
